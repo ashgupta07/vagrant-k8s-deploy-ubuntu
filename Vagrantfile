@@ -1,5 +1,5 @@
 IMAGE_NAME = "peru/ubuntu-20.04-server-amd64"
-N = 1
+N = 2
 
 Vagrant.configure("2") do |config|
     config.ssh.insert_key = false

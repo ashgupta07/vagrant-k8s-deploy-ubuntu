@@ -15,7 +15,7 @@ vagrant code and ansible playbooks to deploy a multi-node kubernetes cluster
 ```
 $ git clone https://github.com/ashgupta07/vagrant-k8s-deploy-ubuntu.git
 ```
-- Replace the value of N with the number of nodes for the cluster
+- Replace the value of N with the number of worker nodes(other than 1 control plane) for the cluster
 ```
 sed -i 's/^N =.*/N = 3/' Vagrantfile
 ```
